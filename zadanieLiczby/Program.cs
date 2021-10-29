@@ -33,18 +33,18 @@ namespace zadanieLiczby
 
         static void wypisz_n_liczb_pierwszych(int n)
         {
-            int licznik = 0;
-            int iterator = 0;
+            int x = 0;
+            int y = 0;
             Console.WriteLine("zacznij od nowa");
-            while (licznik < n)
+            while (x < n)
             {
-                if (Czy_jest_liczbą_pierwszą(iterator))
+                if (Czy_jest_liczbą_pierwszą(y))
                 {
-                    Console.WriteLine(iterator);
-                    licznik++;
+                    Console.WriteLine(y);
+                    x++;
 
                 }
-                iterator++;
+                y++;
 
 
             }
