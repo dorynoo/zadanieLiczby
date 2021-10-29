@@ -38,9 +38,6 @@ namespace zadanieLiczby
             Console.WriteLine("zacznij od nowa");
             while (licznik < n)
             {
-                //Console.Write(iterator);
-                //Console.WriteLine(Czy_jest_liczbą_pierwszą(iterator));
-
                 if (Czy_jest_liczbą_pierwszą(iterator))
                 {
                     Console.WriteLine(iterator);
@@ -54,24 +51,6 @@ namespace zadanieLiczby
         }
         static void Main(string[] args)
         {
-
-            /*   Random rnd = new Random();
-               int wylosowano = rnd.Next(0, 10);
-
-               Console.WriteLine(wylosowano);
-               int liczba = Convert.ToInt32(Console.ReadLine());
-               if (wylosowano == liczba)
-               {
-                   Console.WriteLine("trafiłeś");
-               }
-               else
-               {
-                   Console.WriteLine("jeszcze raz");
-               }
-
-               bool test = Czy_jest_liczbą_pierwszą(liczba);
-               Console.WriteLine(test);
-            */
             int liczby_pierwsze = Convert.ToInt32(Console.ReadLine());
             wypisz_n_liczb_pierwszych(liczby_pierwsze);
         }
